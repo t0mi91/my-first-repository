@@ -1,0 +1,98 @@
+body {
+    background-color:mistyrose;
+    margin: 50px;;
+}
+
+#images-container{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height:490px;
+ }
+
+#image-title,
+#image-description {
+    padding: 10px;
+    margin-left: 20px;
+}
+
+
+#arrow-left,
+#arrow-right{
+    background-color:transparent;
+    width: 50px;
+    height:18px;
+    text-align: center;
+    padding: 241px 40px;
+}
+
+#arrow-right{
+    transform: rotate(180deg);
+}
+
+#arrow-left:hover,
+#arrow-right:hover {
+    background-color: sandybrown;
+}
+
+#text-container {
+    position: relative;
+    margin: 0;
+    height: 130px;
+    top: -143px;
+    bottom: 0;
+    background-color: dimgrey;
+    color: ivory;
+    opacity: 0.9;
+}
+
+#image-title,
+#image-description {
+    margin: 10px;
+    width: 930px;
+    
+}
+
+#images {
+    position: relative;
+}   
+
+#thumbnails-container {
+    margin:30px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.thumbnail-box {
+    margin: 0;
+    position: relative;
+}
+
+.thumbnail-box .title {
+    display: none;
+    width: 96px;
+    margin: 0;
+    padding: 2px;
+    border-radius: 5px;
+    position: absolute;
+    left: 5px;
+    background: dimgrey;
+    opacity: 0.9;
+    color: white;
+    font-size: 12px;
+}
+
+.thumbnail-box:hover .title {
+    display: block;
+}
+
+.thumbnail {
+    margin: 5px;
+    box-shadow: 0 4px 8px dimgrey;
+}
+
+.thumbnail:hover {
+    margin: 5px;
+    box-shadow: 0 4px 8px black;
+}

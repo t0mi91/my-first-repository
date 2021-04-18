@@ -1,0 +1,41 @@
+p{
+  display:flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  padding: 30px;
+  color: white;
+  margin: 0;
+  font-size: 26px;
+  font-family: 'Baloo Thambi 2', cursive;
+  font-weight: bold;
+    
+  }
+  
+  main{
+    border: 6px solid 
+  royalblue;
+  max-width: 50%;
+  
+  }
+  
+  .north {
+    background: #E67676;
+    font: 15px;
+    font-family:'Roboto', sans-serif; 
+  }
+  .east {
+    background: #F2F062;
+    font: 15px;
+    font-family:'Roboto', sans-serif; 
+    align-items: center;
+  }
+  .south {
+    background: #A9E6E6;
+    font: 15px;
+    font-family:'Roboto', sans-serif; 
+  }
+  .west {
+    background: #7692E4;
+    font: 15px;
+    font-family:'Roboto', sans-serif; 
+  }
